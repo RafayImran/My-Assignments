@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\GIT Project"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Tags Glossary"
+		},
+		{
+			"path": "..\\..\\All Code"
+		},
+		{
+			"path": "..\\..\\Javascript"
+		},
+		{
+			"path": "..\\..\\Code List Reference"
+		},
+		{
+			"path": "..\\..\\All Samples"
+		},
+		{
+			"path": "..\\..\\My Practice"
+		},
+		{
+			"path": "..\\..\\Email Signature"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My Assignments"
+	}
+}

@@ -1,0 +1,52 @@
+th {
+
+    width: 5vw;
+    border: 1px solid;
+    border-color: blue;
+    text-align: center;
+}
+
+/* .my-new-button{
+        border: 3px solid blue;
+        padding: 10px;
+        border-radius: 15px;
+} */
+
+.goBack {
+    position: absolute;
+    margin-top: 5px;
+    background-color:lightgray;
+    margin-left: 0px;
+ }
+ 
+ .goNext{
+     background-color:lightgray;
+     float: right;
+     position: absolute;
+     margin-left: 615px;
+     margin-top: 5px;
+ }
+ 
+
+
+
+.headingone {
+    background-color: yellow;
+    padding: 5px;
+    font-size: 3vw;
+}
+
+/* .buttonleft {
+    text-align: left;
+    color: purple;
+
+
+}     */
+
+
+
+/* .buttonright {
+    text-align: right;
+    color: purple;
+    float: right;
+} */

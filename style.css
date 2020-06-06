@@ -1,0 +1,84 @@
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+h3 {
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 25px;
+    text-shadow: 4px 3px 3px red;
+    font-weight: bold;
+}
+
+
+
+h4 {
+color: black;
+}
+
+
+
+body {
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+
+.links {
+    text-align: center;
+    color: cornflowerblue;  
+}
+
+.displayPic{
+    text-align: center;
+}
+
+.displayPic img {
+    border-radius: 50%;
+    border: 3px solid gray;
+    margin-top: 10px;
+}
+
+
+.mainDiv {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #0fc0fa;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: lightgray;
+}
+
+h1::before {
+    content: "Hi, I am Rafay Imran";
+    color:white ;
+    display: block;
+    background-color: red;
+}
+
+h1::after {
+    content: "& Digital Marketer";
+    color:white ;
+    display: block;
+    background-color: red;
+}
+
+
+.myCards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}

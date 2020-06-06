@@ -1,0 +1,354 @@
+/* SAYLANI COUNTER */
+
+.counter {
+    background-color: #2755e9;
+}
+
+h5 {
+    color: snow;
+    font-size: 60px;
+    font-family: Times, serif;
+    margin-left: 20px;
+}
+
+.counter-text {
+    color: snow;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-left: 20px;
+}
+
+.saylani-counter {
+    display: inline-table;
+    padding: 80px 10px 80px 10px;
+    margin: 0px 0px 0px 20px;
+}
+
+.mygreencolor {
+    color: #01fc05;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.counterpics {
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+/* END */
+
+/* 1ST HEADER  */
+/* .goBack {
+   position: absolute;
+   margin-top: 5px;
+   background-color:lightgray;
+   margin-left: 0px;
+}
+
+.goNext{
+    background-color:lightgray;
+    float: right;
+    position: absolute;
+    margin-left: 615px;
+    margin-top: 5px;
+} */
+
+.head {
+    background-color: #316dc3;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.header-icons {
+    text-align: left;
+}
+.my-para {
+    font-size: 15px;
+    color: white;
+    /* padding-right: 10px;
+    padding-bottom: 20px; */
+} 
+/*     
+.image-center {
+    margin:  ;
+}    */
+
+
+button {
+    display: inline-block;
+}
+
+/* END */
+
+/* 2ND HEADER */
+
+.head2 {
+    background-color: white;
+}
+
+.logosaylani1 {
+    width: 200px;
+    padding: 0px 0px 0px 60px;
+}
+
+h1 {
+    color:#346fc4;
+    text-align: center;
+    font-family: 'Times New Roman', Times;
+    font-weight: 600;
+}
+
+/* INTRODUCTION */
+
+.intro {
+    background-color: white;
+    color: black;
+    margin: 0px 0px 0px 35px;
+    text-align: left;
+}
+
+.mygreen {
+    color: #427900;
+}
+
+.line-deco {
+    color: #427900;
+    height: 20px;
+    width: 10px;
+    font-weight: bolder;
+} 
+
+
+/* NEWS BULLITEN */
+
+.moving-news {
+    background-color: #316dc3;
+    color: white;
+    height: 30px;
+    /* margin: 0px 20px 0px 40px; */
+}
+
+.news-date {
+    color: #0dd734;
+
+}
+.more-details {
+    color: #1735e1;
+}
+/* FOOTERS */
+
+.footer1 {
+    background-color: #25272e;
+    height: 300px;
+    color: whitesmoke;
+    padding: 50px 0px 0px 80px;
+    text-align: left;
+}
+
+.footer-icons ul{
+    /* height: 20px;
+    width: 25px; */
+    list-style: none;
+
+}
+
+.my-footer{
+    background-color: #25272e;
+}
+
+.my-footer p{
+    color: white;
+}
+
+.footer-icons ul li i{
+    color:greenyellow ;
+    margin-right: 5px;
+}
+
+.footer-icons{
+    display: flex;
+}
+
+
+.footer2 {
+    background-color: #316dd9;
+    height: 40px;
+    padding: 10px 0 5px 50px;
+    color: white;
+    text-align: left;
+    padding-left: 75px;
+}
+
+/* END */
+
+hr {
+    margin-top: -20px;
+    width: 50px;
+}
+
+/* GALLERY */
+
+.gallerypics {
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-left: 10px;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
+.gallerypics:hover{
+    background-size: 150%;
+    background-position: center;
+    zoom: normal;
+    color: #01fc05;
+}
+
+
+
+/* END */
+
+/* CARDS */
+
+.card {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 darkgrey, 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+h2 {
+    color: #316dc3;
+    font-style: italic;
+    font-weight: 700;
+    font-size: large;
+}
+
+h6 {
+    font-size: x-large;
+    color: #316dc3;
+    text-align: left;
+    margin: 0px 0px 0px 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.main {
+    background-color: whitesmoke;
+    padding: 0px 0px 0px 50px;
+}
+
+font {
+    color: #316dc3;
+    /* padding-left: ; */
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+p {
+    color: black;
+}
+
+/* END */
+
+/* MISSION AND UPCOMING PROJECTS BOXES */
+
+.my-line {
+    margin-left: 40px;
+}
+
+
+.my-cont {
+    display: flex;
+}
+
+.box1 {
+    /* width: 350px;
+    height: 70px; */
+    background-color: whitesmoke;
+    text-align: center;
+    /* margin-top: 0px;
+    margin-left: 60px; */
+    margin-right: 5px;
+    /* margin-bottom: 0px; */
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.box2 {
+    /* width: 350px;
+    height: 70px; */
+    background-color: whitesmoke;
+    text-align: center;
+    /* margin-top: 0px;
+    margin-left: 60px; */
+    margin-right: 5px;
+    /* margin-bottom: 0px; */
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.box3 {
+    /* width: 350px;
+    height: 70px; */
+    background-color: whitesmoke;
+    text-align: center;
+    /* margin-top: 0px;
+    margin-left: 60px; */
+    margin-right: 5px;
+    /* margin-bottom: 0px; */
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.box4 {
+    /* width: 350px;
+    height: 70px; */
+    background-color: whitesmoke;
+    text-align: center;
+    /* margin-top: 0px;
+    margin-left: 60px; */
+    margin-right: 5px;
+    /* margin-bottom: 0px; */
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.upcomingevents {
+    background-color: white;
+    display: flex;
+    width: 28%;
+    height: 100px;
+    text-align: right;
+}
+
+.my-class {
+    display: inline-block;
+}
+
+.green-line {
+    display: block;
+    height: 50px;
+    width: 40px;
+    color: chartreuse;
+}
+
+/* END */

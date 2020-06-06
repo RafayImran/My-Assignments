@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    /* background-image: url("pictures/digitalMarketing/freelancer-763730_1920.jpg")  ; */
+    /* opacity: 0.4 ; */
+    /* height: 800px; */
+    /* background: repeat; */
+    background-size: 100% 100%;
+    /* clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0); */
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.header::before {
+    content: "";
+    position: ab0solute;
+    right: 0;
+    left: 0;
+    top: 0%;
+    bottom: 0%;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.nav-item a {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navActive {
+    background-color: orange;
+    border-radius: 20px;
+    color: gray !important;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 20px;
+    /* border: 1px solid gray; */
+    color: gray;
+}
+
+/* Header after NavBar */
+
+/* .headerSec {
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+} */
+
+/* .centeredDiv {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* to run in every browser */
+
+/* -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+} */
+
+/* TALK ABOUT YOUR PROJECT BUTTON */
+
+.headButtons {
+    /* background-color: lightgray; */
+    background-image: url(/public/pictures/digitalMarketing/DMA.jpg);
+    border: 2px solid gray;
+    color: gray;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    transition: all 1.5s ease 0s;
+}
+
+.headButtons::after {
+    background: #16c9f6;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: all 1.5s ease 0s;
+}
+
+.headButtons:hover {
+    background-color: #16c9f6;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.headButtons:hover::after {
+    width: 100%
+}
+
+/* .consultancyButton {
+    float: right;
+    text-align: right;
+} */
+
+h3 {}
+
+.aboutText {
+    /* line-height: 1.6; */
+    /* font-weight: 400; */
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-align: center; */
+    padding: 25px 80px 0px 95px;
+    /* margin: auto 0; */
+}
+
+.card-text {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    /* font-weight: bold; */
+    /* text-justify: inter-word ; */
+}
+
+.orderNow {
+    /* text-align: center!important; */
+    margin-left: 90px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    color: black !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+
+.orderNow:hover {
+    border-radius: 0px;
+    background-color: orange;
+}
+
+.serviceCard {
+    /* background-color: #c0392b!important; */
+    justify-content: space-between !important;
+    display: inline !important;
+    border: 1px solid gray !important;
+}
+
+.serviceCard:hover {
+    /* display: flex; */
+    /* justify-content: space-between!important; */
+    /* display: inline-block!important; */
+    transform: translateY(-20px)!important;
+    box-shadow: 0 0 20px gray;
+    background-color: gainsboro!important;
+    color: orange;
+}
+
+.currentOfferings {
+    background-color: whitesmoke;
+}
+
+.talkText {
+    background-color: whitesmoke;
+    height: 300px;
+    text-align: center;
+    padding-top: 35px;
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+}
+
+.about4 {
+    height: 50px;
+}
+
+/* ..........Talk Us starts.......... */
+
+.contactUs {
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    /* padding: 80px 0; */
+}
+
+.contactUs::before {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background: linear-gradient( 330deg, #16c9f6 45.5%, #fff 0%);
+    /* background-color: #16c9f6; */
+    z-index: -1;
+}
+
+.formButton button {
+    border: 1px solid #16c9f6;
+    border-radius: 100px;
+    padding: 12px 35px;
+    margin: 0 5px;
+    outline: none;
+    color: #16c9f6;
+    background: transparent;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+::placeholder {
+    font-size: 0.85rem
+}
+
+form:hover .formButton button {
+    background: white;
+    color: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+/* ..........Talk Us Ends.......... */
+
+/* ..........Newsletter starts.......... */
+
+.newsletterInput {
+    border-radius: 100px 0 0 100px !important;
+    min-width: 150px;
+    min-height: 45px;
+}
+
+.myNewsletter {
+    width: 100%;
+    height: auto;
+    margin: 80px auto;
+}
+
+.input-group-text {
+    border-radius: 0 100px 100px 0 !important;
+    background: #5bc0de !important;
+    color: white !important;
+    /* min-width: 120px; */
+}
+
+/* ..........Newsletter Ends.......... */
+
+/* ..........DIGITAL NEEDS STARTS.......... */
+
+.needs {
+    background-color: orange;
+    height: 150px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+    /* padding-left: 4px; */
+}
+
+.needs:hover {
+    background-color: #5bc0de;
+    color: whitesmoke;
+}
+
+/* ..........DIGITAL NEEDS Ends.......... */
+
+/* ..........Footer 1 Starts.......... */
+
+.myFooter {
+    background-color: #202020;
+}
+
+.col-3-div ul li {
+    display: inline-block !important;
+    justify-content: space-around;
+}
+
+.my-whatsapp {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.my-facebook {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.my-skype {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.my-linkedin {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.fas fa-phone {
+    height: 35px !important;
+    width: 35px !important;
+    color: greenyellow !important;
+}
+
+/* .mainFootersDiv{
+
+} */
+
+/* ..........Footer 1 Ends.......... */
+
+/* ..........Copyright Footer 2 Starts.......... */
+
+.copyrightFooter {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #282828;
+    height: 8vh;
+    padding: 8px 0px 0px 0px;
+}
+
+/* .copyrightFooter{
+    height: 80px;
+} */
+
+/* ..........Copyright Footer 2 Ends.......... */
+
+/* ..........CLIENT FEEDBACK STYLING STARTS.......... */
+
+.feedback-icon {
+    /*.......... TO CENTER IMAGE STARTS..........*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*..........TO CENTER IMAGE ENDS..........*/
+    color: #16c9f6;
+    height: 30px !important;
+    width: 30px !important;
+    /* margin: 0 auto !important; */
+}
+
+.quote-icon {
+    color: #16c9f6;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+/* ..........CLIENT FEEDBACK STYLING ENDS.......... */
+
+/* ..........EXTRA BUTTONS STYLING STARTS.......... */
+
+.extraButtons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 8px 10px 8px 10px;
+    justify-content: space-between;
+}
+
+.extraButtons button {
+    padding: 8px 10px 8px 10px;
+    background-color: orange;
+    text-transform: uppercase;
+    text-align: center;
+    /* position: relative; */
+    /* margin: 0 auto; */
+}
+
+.extraButtons button:hover {
+    background-color: #16c9f6;
+}
+
+/* .......... EXTRA BUTTONS STYLING ENDS .......... */
+
+/* ..........SEO AUDIT FORM STYLING STARTS.......... */
+
+.auditForm {
+    text-align: center;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+    margin: 0 auto;
+}
+
+/* ..........SEO AUDIT FORM STYLING ENDS.......... */
+
+/* <!-- ..........THE END.......... --> */
